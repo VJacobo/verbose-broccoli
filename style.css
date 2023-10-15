@@ -1,0 +1,77 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+  
+  /* Update the styles for the time-block elements */
+.time-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+  
+.hour {
+    flex: 1;
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+}
+  
+.description {
+    flex: 6;
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+    white-space: pre-wrap;
+}
+  
+.saveBtn {
+    flex: 1;
+    text-align: center;
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06aed5;
+    color: white;
+}
+  
+.saveBtn i:hover {
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.past {
+  background-color: grey;
+  color: white;
+} 
+  
+  /* Leave your existing styles for past, present, and future classes as they are */
+.present {
+    background-color: red;
+    color: white;
+}
+
+.future,
+.future2,
+.future3,
+.future4,
+.future5,
+.future6,
+.future7 {
+    background-color: green;
+    color: white;
+  }
+  
+  /* Additional styles for rows */
+  .row {
+    border-top: 1px solid white;
+    margin: 10px;
+  }
+  
